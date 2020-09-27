@@ -8,6 +8,8 @@ All functions are stored in the global `Async` by default. You can ensure thie g
 
 To use this module, you will need to compile lua/includes/modules/async.moon using moonc. You can find instructions on installing the Moonscript compiler [here](https://moonscript.org/#installation).
 
+Alternately, you can download the Lua file from [Releases](https://github.com/ssblur/GModAsync/releases) and place it under lua/includes/modules.
+
 ### Creating a Promise
 This is easy! In either Lua or MoonScript, you can pass `Async.async` a function to create a promise easily. For example:
 
