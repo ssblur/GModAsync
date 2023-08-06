@@ -4,7 +4,7 @@ A basic async library for Garry's Mod. Written in MoonScript, must be compiled f
 # Usage
 Usage is fairly simple. This library uses JavaScript-like Promises, but you won't need to instantiate them directly.
 
-All functions are stored in the global `Async` by default. You can ensure thie global exists with `require 'async'`.
+All functions are stored in the global `Async` by default. You can ensure this global exists with `require 'async'`.
 
 To use this module, you will need to compile lua/includes/modules/async.moon using moonc. You can find instructions on installing the Moonscript compiler [here](https://moonscript.org/#installation).
 
